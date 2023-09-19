@@ -1,0 +1,15 @@
+template_hal\sp_flop.o: ..\FreeRTOS\Minimal\sp_flop.c
+template_hal\sp_flop.o: D:\Software\keil5\ARM\ARM_Compiler_5.06u7\Bin\..\include\stdlib.h
+template_hal\sp_flop.o: D:\Software\keil5\ARM\ARM_Compiler_5.06u7\Bin\..\include\math.h
+template_hal\sp_flop.o: ..\FreeRTOS\Inc\FreeRTOS.h
+template_hal\sp_flop.o: D:\Software\keil5\ARM\ARM_Compiler_5.06u7\Bin\..\include\stddef.h
+template_hal\sp_flop.o: D:\Software\keil5\ARM\ARM_Compiler_5.06u7\Bin\..\include\stdint.h
+template_hal\sp_flop.o: ..\FreeRTOS\Inc\FreeRTOSConfig.h
+template_hal\sp_flop.o: ..\FreeRTOS\Inc\projdefs.h
+template_hal\sp_flop.o: ..\FreeRTOS\Inc\portable.h
+template_hal\sp_flop.o: ..\FreeRTOS\Inc\deprecated_definitions.h
+template_hal\sp_flop.o: ..\FreeRTOS\Inc\portmacro.h
+template_hal\sp_flop.o: ..\FreeRTOS\Inc\mpu_wrappers.h
+template_hal\sp_flop.o: ..\FreeRTOS\Inc\task.h
+template_hal\sp_flop.o: ..\FreeRTOS\Inc\list.h
+template_hal\sp_flop.o: ..\FreeRTOS\include\flop.h

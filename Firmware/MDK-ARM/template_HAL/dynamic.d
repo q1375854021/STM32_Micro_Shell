@@ -1,0 +1,16 @@
+template_hal\dynamic.o: ..\FreeRTOS\Minimal\dynamic.c
+template_hal\dynamic.o: D:\Software\keil5\ARM\ARM_Compiler_5.06u7\Bin\..\include\stdlib.h
+template_hal\dynamic.o: ..\FreeRTOS\Inc\FreeRTOS.h
+template_hal\dynamic.o: D:\Software\keil5\ARM\ARM_Compiler_5.06u7\Bin\..\include\stddef.h
+template_hal\dynamic.o: D:\Software\keil5\ARM\ARM_Compiler_5.06u7\Bin\..\include\stdint.h
+template_hal\dynamic.o: ..\FreeRTOS\Inc\FreeRTOSConfig.h
+template_hal\dynamic.o: ..\FreeRTOS\Inc\projdefs.h
+template_hal\dynamic.o: ..\FreeRTOS\Inc\portable.h
+template_hal\dynamic.o: ..\FreeRTOS\Inc\deprecated_definitions.h
+template_hal\dynamic.o: ..\FreeRTOS\Inc\portmacro.h
+template_hal\dynamic.o: ..\FreeRTOS\Inc\mpu_wrappers.h
+template_hal\dynamic.o: ..\FreeRTOS\Inc\task.h
+template_hal\dynamic.o: ..\FreeRTOS\Inc\list.h
+template_hal\dynamic.o: ..\FreeRTOS\Inc\semphr.h
+template_hal\dynamic.o: ..\FreeRTOS\Inc\queue.h
+template_hal\dynamic.o: ..\FreeRTOS\include\dynamic.h

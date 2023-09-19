@@ -1,0 +1,677 @@
+Dependencies for Project 'template_LL', Target 'template_LL': (DO NOT MODIFY !)
+CompilerVersion: 5060960::V5.06 update 7 (build 960)::.\ARM_Compiler_5.06u7
+F (startup_stm32h750xx.s)(0x6502EEC2)(--cpu Cortex-M7.fp.dp -g --apcs=interwork --pd "__MICROLIB SETA 1"-I.\RTE\_template_LL-ID:\Software\keil5\Pack\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\Software\keil5\Pack\Keil\STM32H7xx_DFP\3.1.0\Drivers\CMSIS\Device\ST\STM32H7xx\Include--pd "__UVISION_VERSION SETA 538" --pd "_RTE_ SETA 1" --pd "STM32H750xx SETA 1" --pd "_RTE_ SETA 1"--list startup_stm32h750xx.lst --xref -o template_hal\startup_stm32h750xx.o --depend template_hal\startup_stm32h750xx.d)
+F (..\Src\Led.c)(0x64F9B118)(--c99 --gnu -c --cpu Cortex-M7.fp.dp -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc -I ../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I ../Drivers/CMSIS/Include -I ../FreeRTOS/Inc -I ../FreeRTOS/Portable -I ../FreeRTOS/Src -I ../FreeRTOS/include -I ../FreeRTOS/CLI-I.\RTE\_template_LL-ID:\Software\keil5\Pack\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\Software\keil5\Pack\Keil\STM32H7xx_DFP\3.1.0\Drivers\CMSIS\Device\ST\STM32H7xx\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32H750xx -D_RTE_ -DSTM32H750xx -DUSE_FULL_LL_DRIVER -DUSE_FULL_ASSERT="1U" -DHSE_VALUE="25000000" -DHSE_STARTUP_TIMEOUT="100" -DLSE_STARTUP_TIMEOUT="5000" -DLSE_VALUE="32768" -DEXTERNAL_CLOCK_VALUE="12288000" -DHSI_VALUE="64000000" -DLSI_VALUE="32000" -DVDD_VALUE="3300" -DCORE_CM7-o template_hal\led.o --omf_browse template_hal\led.crf --depend template_hal\led.d)
+I (../Inc/led.h)(0x64F9D896)
+I (../Inc/main.h)(0x6502EEC0)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_rcc.h)(0x64955B4C)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h7xx.h)(0x64955B49)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h750xx.h)(0x64955B49)
+I (../Drivers/CMSIS/Include/core_cm7.h)(0x64955B4C)
+I (D:\Software\keil5\ARM\ARM_Compiler_5.06u7\include\stdint.h)(0x5E8E3CC2)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x64955B4C)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x64955B4C)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x64955B4C)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x64955B4C)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/system_stm32h7xx.h)(0x64955B49)
+I (D:\Software\keil5\ARM\ARM_Compiler_5.06u7\include\math.h)(0x5E8E3CC2)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_crs.h)(0x64955B4C)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_bus.h)(0x64955B4C)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_system.h)(0x64955B4C)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_exti.h)(0x64955B4C)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_cortex.h)(0x64955B4C)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_utils.h)(0x64955B4C)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_pwr.h)(0x64955B4C)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_dma.h)(0x64955B4C)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_dmamux.h)(0x64955B4C)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_spi.h)(0x64955B4C)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_usart.h)(0x64955B4C)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_gpio.h)(0x64955B4C)
+I (../Inc/stm32_assert.h)(0x64B52231)
+I (../FreeRTOS/Inc/FreeRTOS.h)(0x64020E50)
+I (D:\Software\keil5\ARM\ARM_Compiler_5.06u7\include\stddef.h)(0x5E8E3CC2)
+I (../FreeRTOS/Inc/FreeRTOSConfig.h)(0x64F92E4E)
+I (../FreeRTOS/Inc/projdefs.h)(0x64020E50)
+I (../FreeRTOS/Inc/portable.h)(0x64020E50)
+I (../FreeRTOS/Inc/deprecated_definitions.h)(0x64020E50)
+I (../FreeRTOS/Inc/portmacro.h)(0x64020E50)
+I (../FreeRTOS/Inc/mpu_wrappers.h)(0x64020E50)
+I (../FreeRTOS/Inc/task.h)(0x64020E50)
+I (../FreeRTOS/Inc/list.h)(0x64020E50)
+F (..\Src\Usart1.c)(0x65031176)(--c99 --gnu -c --cpu Cortex-M7.fp.dp -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc -I ../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I ../Drivers/CMSIS/Include -I ../FreeRTOS/Inc -I ../FreeRTOS/Portable -I ../FreeRTOS/Src -I ../FreeRTOS/include -I ../FreeRTOS/CLI-I.\RTE\_template_LL-ID:\Software\keil5\Pack\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\Software\keil5\Pack\Keil\STM32H7xx_DFP\3.1.0\Drivers\CMSIS\Device\ST\STM32H7xx\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32H750xx -D_RTE_ -DSTM32H750xx -DUSE_FULL_LL_DRIVER -DUSE_FULL_ASSERT="1U" -DHSE_VALUE="25000000" -DHSE_STARTUP_TIMEOUT="100" -DLSE_STARTUP_TIMEOUT="5000" -DLSE_VALUE="32768" -DEXTERNAL_CLOCK_VALUE="12288000" -DHSI_VALUE="64000000" -DLSI_VALUE="32000" -DVDD_VALUE="3300" -DCORE_CM7-o template_hal\usart1.o --omf_browse template_hal\usart1.crf --depend template_hal\usart1.d)
+I (../Inc/Usart1.h)(0x65066A14)
+I (../Inc/main.h)(0x6502EEC0)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_rcc.h)(0x64955B4C)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h7xx.h)(0x64955B49)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h750xx.h)(0x64955B49)
+I (../Drivers/CMSIS/Include/core_cm7.h)(0x64955B4C)
+I (D:\Software\keil5\ARM\ARM_Compiler_5.06u7\include\stdint.h)(0x5E8E3CC2)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x64955B4C)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x64955B4C)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x64955B4C)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x64955B4C)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/system_stm32h7xx.h)(0x64955B49)
+I (D:\Software\keil5\ARM\ARM_Compiler_5.06u7\include\math.h)(0x5E8E3CC2)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_crs.h)(0x64955B4C)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_bus.h)(0x64955B4C)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_system.h)(0x64955B4C)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_exti.h)(0x64955B4C)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_cortex.h)(0x64955B4C)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_utils.h)(0x64955B4C)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_pwr.h)(0x64955B4C)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_dma.h)(0x64955B4C)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_dmamux.h)(0x64955B4C)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_spi.h)(0x64955B4C)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_usart.h)(0x64955B4C)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_gpio.h)(0x64955B4C)
+I (../Inc/stm32_assert.h)(0x64B52231)
+I (../Inc/usart.h)(0x64B52230)
+I (D:\Software\keil5\ARM\ARM_Compiler_5.06u7\include\String.h)(0x5E8E3CC2)
+I (../FreeRTOS/Inc/FreeRTOS.h)(0x64020E50)
+I (D:\Software\keil5\ARM\ARM_Compiler_5.06u7\include\stddef.h)(0x5E8E3CC2)
+I (../FreeRTOS/Inc/FreeRTOSConfig.h)(0x64F92E4E)
+I (../FreeRTOS/Inc/projdefs.h)(0x64020E50)
+I (../FreeRTOS/Inc/portable.h)(0x64020E50)
+I (../FreeRTOS/Inc/deprecated_definitions.h)(0x64020E50)
+I (../FreeRTOS/Inc/portmacro.h)(0x64020E50)
+I (../FreeRTOS/Inc/mpu_wrappers.h)(0x64020E50)
+I (../FreeRTOS/Inc/semphr.h)(0x64020E50)
+I (../FreeRTOS/Inc/queue.h)(0x64020E50)
+I (../FreeRTOS/Inc/task.h)(0x64020E50)
+I (../FreeRTOS/Inc/list.h)(0x64020E50)
+I (D:\Software\keil5\ARM\ARM_Compiler_5.06u7\include\stdio.h)(0x5E8E3CC2)
+F (..\Src\Lcd.c)(0x64F9ED2B)(--c99 --gnu -c --cpu Cortex-M7.fp.dp -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc -I ../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I ../Drivers/CMSIS/Include -I ../FreeRTOS/Inc -I ../FreeRTOS/Portable -I ../FreeRTOS/Src -I ../FreeRTOS/include -I ../FreeRTOS/CLI-I.\RTE\_template_LL-ID:\Software\keil5\Pack\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\Software\keil5\Pack\Keil\STM32H7xx_DFP\3.1.0\Drivers\CMSIS\Device\ST\STM32H7xx\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32H750xx -D_RTE_ -DSTM32H750xx -DUSE_FULL_LL_DRIVER -DUSE_FULL_ASSERT="1U" -DHSE_VALUE="25000000" -DHSE_STARTUP_TIMEOUT="100" -DLSE_STARTUP_TIMEOUT="5000" -DLSE_VALUE="32768" -DEXTERNAL_CLOCK_VALUE="12288000" -DHSI_VALUE="64000000" -DLSI_VALUE="32000" -DVDD_VALUE="3300" -DCORE_CM7-o template_hal\lcd.o --omf_browse template_hal\lcd.crf --depend template_hal\lcd.d)
+I (../Inc/Lcd.h)(0x64FBE937)
+I (../Inc/main.h)(0x6502EEC0)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_rcc.h)(0x64955B4C)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h7xx.h)(0x64955B49)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h750xx.h)(0x64955B49)
+I (../Drivers/CMSIS/Include/core_cm7.h)(0x64955B4C)
+I (D:\Software\keil5\ARM\ARM_Compiler_5.06u7\include\stdint.h)(0x5E8E3CC2)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x64955B4C)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x64955B4C)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x64955B4C)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x64955B4C)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/system_stm32h7xx.h)(0x64955B49)
+I (D:\Software\keil5\ARM\ARM_Compiler_5.06u7\include\math.h)(0x5E8E3CC2)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_crs.h)(0x64955B4C)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_bus.h)(0x64955B4C)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_system.h)(0x64955B4C)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_exti.h)(0x64955B4C)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_cortex.h)(0x64955B4C)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_utils.h)(0x64955B4C)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_pwr.h)(0x64955B4C)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_dma.h)(0x64955B4C)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_dmamux.h)(0x64955B4C)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_spi.h)(0x64955B4C)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_usart.h)(0x64955B4C)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_gpio.h)(0x64955B4C)
+I (../Inc/stm32_assert.h)(0x64B52231)
+I (../Inc/spi.h)(0x64B5241A)
+I (../FreeRTOS/Inc/FreeRTOS.h)(0x64020E50)
+I (D:\Software\keil5\ARM\ARM_Compiler_5.06u7\include\stddef.h)(0x5E8E3CC2)
+I (../FreeRTOS/Inc/FreeRTOSConfig.h)(0x64F92E4E)
+I (../FreeRTOS/Inc/projdefs.h)(0x64020E50)
+I (../FreeRTOS/Inc/portable.h)(0x64020E50)
+I (../FreeRTOS/Inc/deprecated_definitions.h)(0x64020E50)
+I (../FreeRTOS/Inc/portmacro.h)(0x64020E50)
+I (../FreeRTOS/Inc/mpu_wrappers.h)(0x64020E50)
+I (../FreeRTOS/Inc/task.h)(0x64020E50)
+I (../FreeRTOS/Inc/list.h)(0x64020E50)
+I (../Inc/Lcd_font.h)(0x64B50239)
+I (D:\Software\keil5\ARM\ARM_Compiler_5.06u7\include\stdio.h)(0x5E8E3CC2)
+F (..\FreeRTOS\Inc\FreeRTOSConfig.h)(0x64F92E4E)()
+F (../Src/main.c)(0x6509BAC1)(--c99 --gnu -c --cpu Cortex-M7.fp.dp -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc -I ../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I ../Drivers/CMSIS/Include -I ../FreeRTOS/Inc -I ../FreeRTOS/Portable -I ../FreeRTOS/Src -I ../FreeRTOS/include -I ../FreeRTOS/CLI-I.\RTE\_template_LL-ID:\Software\keil5\Pack\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\Software\keil5\Pack\Keil\STM32H7xx_DFP\3.1.0\Drivers\CMSIS\Device\ST\STM32H7xx\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32H750xx -D_RTE_ -DSTM32H750xx -DUSE_FULL_LL_DRIVER -DUSE_FULL_ASSERT="1U" -DHSE_VALUE="25000000" -DHSE_STARTUP_TIMEOUT="100" -DLSE_STARTUP_TIMEOUT="5000" -DLSE_VALUE="32768" -DEXTERNAL_CLOCK_VALUE="12288000" -DHSI_VALUE="64000000" -DLSI_VALUE="32000" -DVDD_VALUE="3300" -DCORE_CM7-o template_hal\main.o --omf_browse template_hal\main.crf --depend template_hal\main.d)
+I (../Inc/main.h)(0x6502EEC0)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_rcc.h)(0x64955B4C)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h7xx.h)(0x64955B49)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h750xx.h)(0x64955B49)
+I (../Drivers/CMSIS/Include/core_cm7.h)(0x64955B4C)
+I (D:\Software\keil5\ARM\ARM_Compiler_5.06u7\include\stdint.h)(0x5E8E3CC2)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x64955B4C)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x64955B4C)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x64955B4C)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x64955B4C)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/system_stm32h7xx.h)(0x64955B49)
+I (D:\Software\keil5\ARM\ARM_Compiler_5.06u7\include\math.h)(0x5E8E3CC2)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_crs.h)(0x64955B4C)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_bus.h)(0x64955B4C)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_system.h)(0x64955B4C)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_exti.h)(0x64955B4C)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_cortex.h)(0x64955B4C)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_utils.h)(0x64955B4C)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_pwr.h)(0x64955B4C)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_dma.h)(0x64955B4C)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_dmamux.h)(0x64955B4C)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_spi.h)(0x64955B4C)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_usart.h)(0x64955B4C)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_gpio.h)(0x64955B4C)
+I (../Inc/stm32_assert.h)(0x64B52231)
+I (../Inc/spi.h)(0x64B5241A)
+I (../Inc/usart.h)(0x64B52230)
+I (../Inc/gpio.h)(0x64B4B2C9)
+I (../Inc/Led.h)(0x64F9D896)
+I (../FreeRTOS/Inc/FreeRTOS.h)(0x64020E50)
+I (D:\Software\keil5\ARM\ARM_Compiler_5.06u7\include\stddef.h)(0x5E8E3CC2)
+I (../FreeRTOS/Inc/FreeRTOSConfig.h)(0x64F92E4E)
+I (../FreeRTOS/Inc/projdefs.h)(0x64020E50)
+I (../FreeRTOS/Inc/portable.h)(0x64020E50)
+I (../FreeRTOS/Inc/deprecated_definitions.h)(0x64020E50)
+I (../FreeRTOS/Inc/portmacro.h)(0x64020E50)
+I (../FreeRTOS/Inc/mpu_wrappers.h)(0x64020E50)
+I (../FreeRTOS/Inc/task.h)(0x64020E50)
+I (../FreeRTOS/Inc/list.h)(0x64020E50)
+I (../Inc/Usart1.h)(0x65066A14)
+I (D:\Software\keil5\ARM\ARM_Compiler_5.06u7\include\String.h)(0x5E8E3CC2)
+I (../FreeRTOS/Inc/semphr.h)(0x64020E50)
+I (../FreeRTOS/Inc/queue.h)(0x64020E50)
+I (../Inc/Lcd.h)(0x64FBE937)
+I (../FreeRTOS/CLI/nr_micro_shell.h)(0x64FCA098)
+I (D:\Software\keil5\ARM\ARM_Compiler_5.06u7\include\stdio.h)(0x5E8E3CC2)
+I (../FreeRTOS/CLI/nr_micro_shell_config.h)(0x64FCA564)
+I (../FreeRTOS/CLI/ansi.h)(0x5EFBF5BC)
+I (../FreeRTOS/CLI/ansi_port.h)(0x5EFBF5BC)
+I (../FreeRTOS/CLI/ansi_def.h)(0x5EFBF5BC)
+I (../FreeRTOS/CLI/my_shell_func.h)(0x6509BB30)
+I (D:\Software\keil5\ARM\ARM_Compiler_5.06u7\include\stdlib.h)(0x5E8E3CC2)
+F (../Src/gpio.c)(0x64B52230)(--c99 --gnu -c --cpu Cortex-M7.fp.dp -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc -I ../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I ../Drivers/CMSIS/Include -I ../FreeRTOS/Inc -I ../FreeRTOS/Portable -I ../FreeRTOS/Src -I ../FreeRTOS/include -I ../FreeRTOS/CLI-I.\RTE\_template_LL-ID:\Software\keil5\Pack\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\Software\keil5\Pack\Keil\STM32H7xx_DFP\3.1.0\Drivers\CMSIS\Device\ST\STM32H7xx\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32H750xx -D_RTE_ -DSTM32H750xx -DUSE_FULL_LL_DRIVER -DUSE_FULL_ASSERT="1U" -DHSE_VALUE="25000000" -DHSE_STARTUP_TIMEOUT="100" -DLSE_STARTUP_TIMEOUT="5000" -DLSE_VALUE="32768" -DEXTERNAL_CLOCK_VALUE="12288000" -DHSI_VALUE="64000000" -DLSI_VALUE="32000" -DVDD_VALUE="3300" -DCORE_CM7-o template_hal\gpio.o --omf_browse template_hal\gpio.crf --depend template_hal\gpio.d)
+I (../Inc/gpio.h)(0x64B4B2C9)
+I (../Inc/main.h)(0x6502EEC0)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_rcc.h)(0x64955B4C)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h7xx.h)(0x64955B49)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h750xx.h)(0x64955B49)
+I (../Drivers/CMSIS/Include/core_cm7.h)(0x64955B4C)
+I (D:\Software\keil5\ARM\ARM_Compiler_5.06u7\include\stdint.h)(0x5E8E3CC2)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x64955B4C)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x64955B4C)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x64955B4C)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x64955B4C)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/system_stm32h7xx.h)(0x64955B49)
+I (D:\Software\keil5\ARM\ARM_Compiler_5.06u7\include\math.h)(0x5E8E3CC2)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_crs.h)(0x64955B4C)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_bus.h)(0x64955B4C)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_system.h)(0x64955B4C)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_exti.h)(0x64955B4C)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_cortex.h)(0x64955B4C)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_utils.h)(0x64955B4C)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_pwr.h)(0x64955B4C)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_dma.h)(0x64955B4C)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_dmamux.h)(0x64955B4C)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_spi.h)(0x64955B4C)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_usart.h)(0x64955B4C)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_gpio.h)(0x64955B4C)
+I (../Inc/stm32_assert.h)(0x64B52231)
+F (../Src/spi.c)(0x6502EEBF)(--c99 --gnu -c --cpu Cortex-M7.fp.dp -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc -I ../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I ../Drivers/CMSIS/Include -I ../FreeRTOS/Inc -I ../FreeRTOS/Portable -I ../FreeRTOS/Src -I ../FreeRTOS/include -I ../FreeRTOS/CLI-I.\RTE\_template_LL-ID:\Software\keil5\Pack\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\Software\keil5\Pack\Keil\STM32H7xx_DFP\3.1.0\Drivers\CMSIS\Device\ST\STM32H7xx\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32H750xx -D_RTE_ -DSTM32H750xx -DUSE_FULL_LL_DRIVER -DUSE_FULL_ASSERT="1U" -DHSE_VALUE="25000000" -DHSE_STARTUP_TIMEOUT="100" -DLSE_STARTUP_TIMEOUT="5000" -DLSE_VALUE="32768" -DEXTERNAL_CLOCK_VALUE="12288000" -DHSI_VALUE="64000000" -DLSI_VALUE="32000" -DVDD_VALUE="3300" -DCORE_CM7-o template_hal\spi.o --omf_browse template_hal\spi.crf --depend template_hal\spi.d)
+I (../Inc/spi.h)(0x64B5241A)
+I (../Inc/main.h)(0x6502EEC0)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_rcc.h)(0x64955B4C)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h7xx.h)(0x64955B49)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h750xx.h)(0x64955B49)
+I (../Drivers/CMSIS/Include/core_cm7.h)(0x64955B4C)
+I (D:\Software\keil5\ARM\ARM_Compiler_5.06u7\include\stdint.h)(0x5E8E3CC2)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x64955B4C)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x64955B4C)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x64955B4C)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x64955B4C)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/system_stm32h7xx.h)(0x64955B49)
+I (D:\Software\keil5\ARM\ARM_Compiler_5.06u7\include\math.h)(0x5E8E3CC2)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_crs.h)(0x64955B4C)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_bus.h)(0x64955B4C)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_system.h)(0x64955B4C)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_exti.h)(0x64955B4C)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_cortex.h)(0x64955B4C)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_utils.h)(0x64955B4C)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_pwr.h)(0x64955B4C)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_dma.h)(0x64955B4C)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_dmamux.h)(0x64955B4C)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_spi.h)(0x64955B4C)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_usart.h)(0x64955B4C)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_gpio.h)(0x64955B4C)
+I (../Inc/stm32_assert.h)(0x64B52231)
+F (../Src/usart.c)(0x6502EEBF)(--c99 --gnu -c --cpu Cortex-M7.fp.dp -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc -I ../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I ../Drivers/CMSIS/Include -I ../FreeRTOS/Inc -I ../FreeRTOS/Portable -I ../FreeRTOS/Src -I ../FreeRTOS/include -I ../FreeRTOS/CLI-I.\RTE\_template_LL-ID:\Software\keil5\Pack\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\Software\keil5\Pack\Keil\STM32H7xx_DFP\3.1.0\Drivers\CMSIS\Device\ST\STM32H7xx\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32H750xx -D_RTE_ -DSTM32H750xx -DUSE_FULL_LL_DRIVER -DUSE_FULL_ASSERT="1U" -DHSE_VALUE="25000000" -DHSE_STARTUP_TIMEOUT="100" -DLSE_STARTUP_TIMEOUT="5000" -DLSE_VALUE="32768" -DEXTERNAL_CLOCK_VALUE="12288000" -DHSI_VALUE="64000000" -DLSI_VALUE="32000" -DVDD_VALUE="3300" -DCORE_CM7-o template_hal\usart.o --omf_browse template_hal\usart.crf --depend template_hal\usart.d)
+I (../Inc/usart.h)(0x64B52230)
+I (../Inc/main.h)(0x6502EEC0)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_rcc.h)(0x64955B4C)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h7xx.h)(0x64955B49)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h750xx.h)(0x64955B49)
+I (../Drivers/CMSIS/Include/core_cm7.h)(0x64955B4C)
+I (D:\Software\keil5\ARM\ARM_Compiler_5.06u7\include\stdint.h)(0x5E8E3CC2)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x64955B4C)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x64955B4C)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x64955B4C)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x64955B4C)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/system_stm32h7xx.h)(0x64955B49)
+I (D:\Software\keil5\ARM\ARM_Compiler_5.06u7\include\math.h)(0x5E8E3CC2)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_crs.h)(0x64955B4C)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_bus.h)(0x64955B4C)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_system.h)(0x64955B4C)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_exti.h)(0x64955B4C)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_cortex.h)(0x64955B4C)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_utils.h)(0x64955B4C)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_pwr.h)(0x64955B4C)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_dma.h)(0x64955B4C)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_dmamux.h)(0x64955B4C)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_spi.h)(0x64955B4C)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_usart.h)(0x64955B4C)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_gpio.h)(0x64955B4C)
+I (../Inc/stm32_assert.h)(0x64B52231)
+F (../Src/stm32h7xx_it.c)(0x6502EF96)(--c99 --gnu -c --cpu Cortex-M7.fp.dp -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc -I ../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I ../Drivers/CMSIS/Include -I ../FreeRTOS/Inc -I ../FreeRTOS/Portable -I ../FreeRTOS/Src -I ../FreeRTOS/include -I ../FreeRTOS/CLI-I.\RTE\_template_LL-ID:\Software\keil5\Pack\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\Software\keil5\Pack\Keil\STM32H7xx_DFP\3.1.0\Drivers\CMSIS\Device\ST\STM32H7xx\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32H750xx -D_RTE_ -DSTM32H750xx -DUSE_FULL_LL_DRIVER -DUSE_FULL_ASSERT="1U" -DHSE_VALUE="25000000" -DHSE_STARTUP_TIMEOUT="100" -DLSE_STARTUP_TIMEOUT="5000" -DLSE_VALUE="32768" -DEXTERNAL_CLOCK_VALUE="12288000" -DHSI_VALUE="64000000" -DLSI_VALUE="32000" -DVDD_VALUE="3300" -DCORE_CM7-o template_hal\stm32h7xx_it.o --omf_browse template_hal\stm32h7xx_it.crf --depend template_hal\stm32h7xx_it.d)
+I (../Inc/main.h)(0x6502EEC0)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_rcc.h)(0x64955B4C)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h7xx.h)(0x64955B49)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h750xx.h)(0x64955B49)
+I (../Drivers/CMSIS/Include/core_cm7.h)(0x64955B4C)
+I (D:\Software\keil5\ARM\ARM_Compiler_5.06u7\include\stdint.h)(0x5E8E3CC2)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x64955B4C)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x64955B4C)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x64955B4C)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x64955B4C)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/system_stm32h7xx.h)(0x64955B49)
+I (D:\Software\keil5\ARM\ARM_Compiler_5.06u7\include\math.h)(0x5E8E3CC2)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_crs.h)(0x64955B4C)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_bus.h)(0x64955B4C)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_system.h)(0x64955B4C)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_exti.h)(0x64955B4C)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_cortex.h)(0x64955B4C)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_utils.h)(0x64955B4C)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_pwr.h)(0x64955B4C)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_dma.h)(0x64955B4C)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_dmamux.h)(0x64955B4C)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_spi.h)(0x64955B4C)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_usart.h)(0x64955B4C)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_gpio.h)(0x64955B4C)
+I (../Inc/stm32_assert.h)(0x64B52231)
+I (../Inc/stm32h7xx_it.h)(0x64B4BFC1)
+I (../Inc/Usart1.h)(0x65066A14)
+I (../Inc/usart.h)(0x64B52230)
+I (D:\Software\keil5\ARM\ARM_Compiler_5.06u7\include\String.h)(0x5E8E3CC2)
+I (../FreeRTOS/Inc/FreeRTOS.h)(0x64020E50)
+I (D:\Software\keil5\ARM\ARM_Compiler_5.06u7\include\stddef.h)(0x5E8E3CC2)
+I (../FreeRTOS/Inc/FreeRTOSConfig.h)(0x64F92E4E)
+I (../FreeRTOS/Inc/projdefs.h)(0x64020E50)
+I (../FreeRTOS/Inc/portable.h)(0x64020E50)
+I (../FreeRTOS/Inc/deprecated_definitions.h)(0x64020E50)
+I (../FreeRTOS/Inc/portmacro.h)(0x64020E50)
+I (../FreeRTOS/Inc/mpu_wrappers.h)(0x64020E50)
+I (../FreeRTOS/Inc/semphr.h)(0x64020E50)
+I (../FreeRTOS/Inc/queue.h)(0x64020E50)
+I (../FreeRTOS/Inc/task.h)(0x64020E50)
+I (../FreeRTOS/Inc/list.h)(0x64020E50)
+I (../FreeRTOS/CLI/my_shell_func.h)(0x6509BB30)
+I (../FreeRTOS/CLI/nr_micro_shell.h)(0x64FCA098)
+I (D:\Software\keil5\ARM\ARM_Compiler_5.06u7\include\stdio.h)(0x5E8E3CC2)
+I (../FreeRTOS/CLI/nr_micro_shell_config.h)(0x64FCA564)
+I (../FreeRTOS/CLI/ansi.h)(0x5EFBF5BC)
+I (../FreeRTOS/CLI/ansi_port.h)(0x5EFBF5BC)
+I (../FreeRTOS/CLI/ansi_def.h)(0x5EFBF5BC)
+F (../Src/system_stm32h7xx.c)(0x64955B49)(--c99 --gnu -c --cpu Cortex-M7.fp.dp -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc -I ../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I ../Drivers/CMSIS/Include -I ../FreeRTOS/Inc -I ../FreeRTOS/Portable -I ../FreeRTOS/Src -I ../FreeRTOS/include -I ../FreeRTOS/CLI-I.\RTE\_template_LL-ID:\Software\keil5\Pack\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\Software\keil5\Pack\Keil\STM32H7xx_DFP\3.1.0\Drivers\CMSIS\Device\ST\STM32H7xx\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32H750xx -D_RTE_ -DSTM32H750xx -DUSE_FULL_LL_DRIVER -DUSE_FULL_ASSERT="1U" -DHSE_VALUE="25000000" -DHSE_STARTUP_TIMEOUT="100" -DLSE_STARTUP_TIMEOUT="5000" -DLSE_VALUE="32768" -DEXTERNAL_CLOCK_VALUE="12288000" -DHSI_VALUE="64000000" -DLSI_VALUE="32000" -DVDD_VALUE="3300" -DCORE_CM7-o template_hal\system_stm32h7xx.o --omf_browse template_hal\system_stm32h7xx.crf --depend template_hal\system_stm32h7xx.d)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h7xx.h)(0x64955B49)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h750xx.h)(0x64955B49)
+I (../Drivers/CMSIS/Include/core_cm7.h)(0x64955B4C)
+I (D:\Software\keil5\ARM\ARM_Compiler_5.06u7\include\stdint.h)(0x5E8E3CC2)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x64955B4C)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x64955B4C)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x64955B4C)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x64955B4C)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/system_stm32h7xx.h)(0x64955B49)
+I (D:\Software\keil5\ARM\ARM_Compiler_5.06u7\include\math.h)(0x5E8E3CC2)
+F (../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_exti.c)(0x64955B4C)(--c99 --gnu -c --cpu Cortex-M7.fp.dp -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc -I ../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I ../Drivers/CMSIS/Include -I ../FreeRTOS/Inc -I ../FreeRTOS/Portable -I ../FreeRTOS/Src -I ../FreeRTOS/include -I ../FreeRTOS/CLI-I.\RTE\_template_LL-ID:\Software\keil5\Pack\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\Software\keil5\Pack\Keil\STM32H7xx_DFP\3.1.0\Drivers\CMSIS\Device\ST\STM32H7xx\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32H750xx -D_RTE_ -DSTM32H750xx -DUSE_FULL_LL_DRIVER -DUSE_FULL_ASSERT="1U" -DHSE_VALUE="25000000" -DHSE_STARTUP_TIMEOUT="100" -DLSE_STARTUP_TIMEOUT="5000" -DLSE_VALUE="32768" -DEXTERNAL_CLOCK_VALUE="12288000" -DHSI_VALUE="64000000" -DLSI_VALUE="32000" -DVDD_VALUE="3300" -DCORE_CM7-o template_hal\stm32h7xx_ll_exti.o --omf_browse template_hal\stm32h7xx_ll_exti.crf --depend template_hal\stm32h7xx_ll_exti.d)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_exti.h)(0x64955B4C)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h7xx.h)(0x64955B49)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h750xx.h)(0x64955B49)
+I (../Drivers/CMSIS/Include/core_cm7.h)(0x64955B4C)
+I (D:\Software\keil5\ARM\ARM_Compiler_5.06u7\include\stdint.h)(0x5E8E3CC2)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x64955B4C)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x64955B4C)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x64955B4C)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x64955B4C)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/system_stm32h7xx.h)(0x64955B49)
+I (../Inc/stm32_assert.h)(0x64B52231)
+F (../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_gpio.c)(0x64955B4C)(--c99 --gnu -c --cpu Cortex-M7.fp.dp -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc -I ../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I ../Drivers/CMSIS/Include -I ../FreeRTOS/Inc -I ../FreeRTOS/Portable -I ../FreeRTOS/Src -I ../FreeRTOS/include -I ../FreeRTOS/CLI-I.\RTE\_template_LL-ID:\Software\keil5\Pack\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\Software\keil5\Pack\Keil\STM32H7xx_DFP\3.1.0\Drivers\CMSIS\Device\ST\STM32H7xx\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32H750xx -D_RTE_ -DSTM32H750xx -DUSE_FULL_LL_DRIVER -DUSE_FULL_ASSERT="1U" -DHSE_VALUE="25000000" -DHSE_STARTUP_TIMEOUT="100" -DLSE_STARTUP_TIMEOUT="5000" -DLSE_VALUE="32768" -DEXTERNAL_CLOCK_VALUE="12288000" -DHSI_VALUE="64000000" -DLSI_VALUE="32000" -DVDD_VALUE="3300" -DCORE_CM7-o template_hal\stm32h7xx_ll_gpio.o --omf_browse template_hal\stm32h7xx_ll_gpio.crf --depend template_hal\stm32h7xx_ll_gpio.d)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_gpio.h)(0x64955B4C)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h7xx.h)(0x64955B49)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h750xx.h)(0x64955B49)
+I (../Drivers/CMSIS/Include/core_cm7.h)(0x64955B4C)
+I (D:\Software\keil5\ARM\ARM_Compiler_5.06u7\include\stdint.h)(0x5E8E3CC2)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x64955B4C)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x64955B4C)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x64955B4C)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x64955B4C)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/system_stm32h7xx.h)(0x64955B49)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_bus.h)(0x64955B4C)
+I (../Inc/stm32_assert.h)(0x64B52231)
+F (../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_rcc.c)(0x64955B4C)(--c99 --gnu -c --cpu Cortex-M7.fp.dp -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc -I ../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I ../Drivers/CMSIS/Include -I ../FreeRTOS/Inc -I ../FreeRTOS/Portable -I ../FreeRTOS/Src -I ../FreeRTOS/include -I ../FreeRTOS/CLI-I.\RTE\_template_LL-ID:\Software\keil5\Pack\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\Software\keil5\Pack\Keil\STM32H7xx_DFP\3.1.0\Drivers\CMSIS\Device\ST\STM32H7xx\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32H750xx -D_RTE_ -DSTM32H750xx -DUSE_FULL_LL_DRIVER -DUSE_FULL_ASSERT="1U" -DHSE_VALUE="25000000" -DHSE_STARTUP_TIMEOUT="100" -DLSE_STARTUP_TIMEOUT="5000" -DLSE_VALUE="32768" -DEXTERNAL_CLOCK_VALUE="12288000" -DHSI_VALUE="64000000" -DLSI_VALUE="32000" -DVDD_VALUE="3300" -DCORE_CM7-o template_hal\stm32h7xx_ll_rcc.o --omf_browse template_hal\stm32h7xx_ll_rcc.crf --depend template_hal\stm32h7xx_ll_rcc.d)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_rcc.h)(0x64955B4C)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h7xx.h)(0x64955B49)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h750xx.h)(0x64955B49)
+I (../Drivers/CMSIS/Include/core_cm7.h)(0x64955B4C)
+I (D:\Software\keil5\ARM\ARM_Compiler_5.06u7\include\stdint.h)(0x5E8E3CC2)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x64955B4C)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x64955B4C)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x64955B4C)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x64955B4C)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/system_stm32h7xx.h)(0x64955B49)
+I (D:\Software\keil5\ARM\ARM_Compiler_5.06u7\include\math.h)(0x5E8E3CC2)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_bus.h)(0x64955B4C)
+I (../Inc/stm32_assert.h)(0x64B52231)
+F (../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_utils.c)(0x64955B4C)(--c99 --gnu -c --cpu Cortex-M7.fp.dp -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc -I ../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I ../Drivers/CMSIS/Include -I ../FreeRTOS/Inc -I ../FreeRTOS/Portable -I ../FreeRTOS/Src -I ../FreeRTOS/include -I ../FreeRTOS/CLI-I.\RTE\_template_LL-ID:\Software\keil5\Pack\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\Software\keil5\Pack\Keil\STM32H7xx_DFP\3.1.0\Drivers\CMSIS\Device\ST\STM32H7xx\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32H750xx -D_RTE_ -DSTM32H750xx -DUSE_FULL_LL_DRIVER -DUSE_FULL_ASSERT="1U" -DHSE_VALUE="25000000" -DHSE_STARTUP_TIMEOUT="100" -DLSE_STARTUP_TIMEOUT="5000" -DLSE_VALUE="32768" -DEXTERNAL_CLOCK_VALUE="12288000" -DHSI_VALUE="64000000" -DLSI_VALUE="32000" -DVDD_VALUE="3300" -DCORE_CM7-o template_hal\stm32h7xx_ll_utils.o --omf_browse template_hal\stm32h7xx_ll_utils.crf --depend template_hal\stm32h7xx_ll_utils.d)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_utils.h)(0x64955B4C)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h7xx.h)(0x64955B49)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h750xx.h)(0x64955B49)
+I (../Drivers/CMSIS/Include/core_cm7.h)(0x64955B4C)
+I (D:\Software\keil5\ARM\ARM_Compiler_5.06u7\include\stdint.h)(0x5E8E3CC2)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x64955B4C)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x64955B4C)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x64955B4C)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x64955B4C)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/system_stm32h7xx.h)(0x64955B49)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_system.h)(0x64955B4C)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_bus.h)(0x64955B4C)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_rcc.h)(0x64955B4C)
+I (D:\Software\keil5\ARM\ARM_Compiler_5.06u7\include\math.h)(0x5E8E3CC2)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_pwr.h)(0x64955B4C)
+I (../Inc/stm32_assert.h)(0x64B52231)
+F (../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_spi.c)(0x64955B4C)(--c99 --gnu -c --cpu Cortex-M7.fp.dp -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc -I ../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I ../Drivers/CMSIS/Include -I ../FreeRTOS/Inc -I ../FreeRTOS/Portable -I ../FreeRTOS/Src -I ../FreeRTOS/include -I ../FreeRTOS/CLI-I.\RTE\_template_LL-ID:\Software\keil5\Pack\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\Software\keil5\Pack\Keil\STM32H7xx_DFP\3.1.0\Drivers\CMSIS\Device\ST\STM32H7xx\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32H750xx -D_RTE_ -DSTM32H750xx -DUSE_FULL_LL_DRIVER -DUSE_FULL_ASSERT="1U" -DHSE_VALUE="25000000" -DHSE_STARTUP_TIMEOUT="100" -DLSE_STARTUP_TIMEOUT="5000" -DLSE_VALUE="32768" -DEXTERNAL_CLOCK_VALUE="12288000" -DHSI_VALUE="64000000" -DLSI_VALUE="32000" -DVDD_VALUE="3300" -DCORE_CM7-o template_hal\stm32h7xx_ll_spi.o --omf_browse template_hal\stm32h7xx_ll_spi.crf --depend template_hal\stm32h7xx_ll_spi.d)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_spi.h)(0x64955B4C)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h7xx.h)(0x64955B49)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h750xx.h)(0x64955B49)
+I (../Drivers/CMSIS/Include/core_cm7.h)(0x64955B4C)
+I (D:\Software\keil5\ARM\ARM_Compiler_5.06u7\include\stdint.h)(0x5E8E3CC2)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x64955B4C)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x64955B4C)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x64955B4C)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x64955B4C)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/system_stm32h7xx.h)(0x64955B49)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_bus.h)(0x64955B4C)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_rcc.h)(0x64955B4C)
+I (D:\Software\keil5\ARM\ARM_Compiler_5.06u7\include\math.h)(0x5E8E3CC2)
+I (../Inc/stm32_assert.h)(0x64B52231)
+F (../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_bdma.c)(0x64955B4C)(--c99 --gnu -c --cpu Cortex-M7.fp.dp -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc -I ../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I ../Drivers/CMSIS/Include -I ../FreeRTOS/Inc -I ../FreeRTOS/Portable -I ../FreeRTOS/Src -I ../FreeRTOS/include -I ../FreeRTOS/CLI-I.\RTE\_template_LL-ID:\Software\keil5\Pack\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\Software\keil5\Pack\Keil\STM32H7xx_DFP\3.1.0\Drivers\CMSIS\Device\ST\STM32H7xx\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32H750xx -D_RTE_ -DSTM32H750xx -DUSE_FULL_LL_DRIVER -DUSE_FULL_ASSERT="1U" -DHSE_VALUE="25000000" -DHSE_STARTUP_TIMEOUT="100" -DLSE_STARTUP_TIMEOUT="5000" -DLSE_VALUE="32768" -DEXTERNAL_CLOCK_VALUE="12288000" -DHSI_VALUE="64000000" -DLSI_VALUE="32000" -DVDD_VALUE="3300" -DCORE_CM7-o template_hal\stm32h7xx_ll_bdma.o --omf_browse template_hal\stm32h7xx_ll_bdma.crf --depend template_hal\stm32h7xx_ll_bdma.d)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_bdma.h)(0x64955B4C)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h7xx.h)(0x64955B49)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h750xx.h)(0x64955B49)
+I (../Drivers/CMSIS/Include/core_cm7.h)(0x64955B4C)
+I (D:\Software\keil5\ARM\ARM_Compiler_5.06u7\include\stdint.h)(0x5E8E3CC2)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x64955B4C)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x64955B4C)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x64955B4C)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x64955B4C)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/system_stm32h7xx.h)(0x64955B49)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_dmamux.h)(0x64955B4C)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_bus.h)(0x64955B4C)
+I (../Inc/stm32_assert.h)(0x64B52231)
+F (../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_usart.c)(0x64955B4C)(--c99 --gnu -c --cpu Cortex-M7.fp.dp -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc -I ../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I ../Drivers/CMSIS/Include -I ../FreeRTOS/Inc -I ../FreeRTOS/Portable -I ../FreeRTOS/Src -I ../FreeRTOS/include -I ../FreeRTOS/CLI-I.\RTE\_template_LL-ID:\Software\keil5\Pack\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\Software\keil5\Pack\Keil\STM32H7xx_DFP\3.1.0\Drivers\CMSIS\Device\ST\STM32H7xx\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32H750xx -D_RTE_ -DSTM32H750xx -DUSE_FULL_LL_DRIVER -DUSE_FULL_ASSERT="1U" -DHSE_VALUE="25000000" -DHSE_STARTUP_TIMEOUT="100" -DLSE_STARTUP_TIMEOUT="5000" -DLSE_VALUE="32768" -DEXTERNAL_CLOCK_VALUE="12288000" -DHSI_VALUE="64000000" -DLSI_VALUE="32000" -DVDD_VALUE="3300" -DCORE_CM7-o template_hal\stm32h7xx_ll_usart.o --omf_browse template_hal\stm32h7xx_ll_usart.crf --depend template_hal\stm32h7xx_ll_usart.d)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_usart.h)(0x64955B4C)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h7xx.h)(0x64955B49)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h750xx.h)(0x64955B49)
+I (../Drivers/CMSIS/Include/core_cm7.h)(0x64955B4C)
+I (D:\Software\keil5\ARM\ARM_Compiler_5.06u7\include\stdint.h)(0x5E8E3CC2)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x64955B4C)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x64955B4C)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x64955B4C)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x64955B4C)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/system_stm32h7xx.h)(0x64955B49)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_rcc.h)(0x64955B4C)
+I (D:\Software\keil5\ARM\ARM_Compiler_5.06u7\include\math.h)(0x5E8E3CC2)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_bus.h)(0x64955B4C)
+I (../Inc/stm32_assert.h)(0x64B52231)
+F (../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_dma.c)(0x64955B4C)(--c99 --gnu -c --cpu Cortex-M7.fp.dp -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc -I ../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I ../Drivers/CMSIS/Include -I ../FreeRTOS/Inc -I ../FreeRTOS/Portable -I ../FreeRTOS/Src -I ../FreeRTOS/include -I ../FreeRTOS/CLI-I.\RTE\_template_LL-ID:\Software\keil5\Pack\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\Software\keil5\Pack\Keil\STM32H7xx_DFP\3.1.0\Drivers\CMSIS\Device\ST\STM32H7xx\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32H750xx -D_RTE_ -DSTM32H750xx -DUSE_FULL_LL_DRIVER -DUSE_FULL_ASSERT="1U" -DHSE_VALUE="25000000" -DHSE_STARTUP_TIMEOUT="100" -DLSE_STARTUP_TIMEOUT="5000" -DLSE_VALUE="32768" -DEXTERNAL_CLOCK_VALUE="12288000" -DHSI_VALUE="64000000" -DLSI_VALUE="32000" -DVDD_VALUE="3300" -DCORE_CM7-o template_hal\stm32h7xx_ll_dma.o --omf_browse template_hal\stm32h7xx_ll_dma.crf --depend template_hal\stm32h7xx_ll_dma.d)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_dma.h)(0x64955B4C)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h7xx.h)(0x64955B49)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h750xx.h)(0x64955B49)
+I (../Drivers/CMSIS/Include/core_cm7.h)(0x64955B4C)
+I (D:\Software\keil5\ARM\ARM_Compiler_5.06u7\include\stdint.h)(0x5E8E3CC2)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x64955B4C)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x64955B4C)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x64955B4C)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x64955B4C)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/system_stm32h7xx.h)(0x64955B49)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_dmamux.h)(0x64955B4C)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_bus.h)(0x64955B4C)
+I (../Inc/stm32_assert.h)(0x64B52231)
+F (../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_pwr.c)(0x64955B4C)(--c99 --gnu -c --cpu Cortex-M7.fp.dp -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc -I ../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I ../Drivers/CMSIS/Include -I ../FreeRTOS/Inc -I ../FreeRTOS/Portable -I ../FreeRTOS/Src -I ../FreeRTOS/include -I ../FreeRTOS/CLI-I.\RTE\_template_LL-ID:\Software\keil5\Pack\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\Software\keil5\Pack\Keil\STM32H7xx_DFP\3.1.0\Drivers\CMSIS\Device\ST\STM32H7xx\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32H750xx -D_RTE_ -DSTM32H750xx -DUSE_FULL_LL_DRIVER -DUSE_FULL_ASSERT="1U" -DHSE_VALUE="25000000" -DHSE_STARTUP_TIMEOUT="100" -DLSE_STARTUP_TIMEOUT="5000" -DLSE_VALUE="32768" -DEXTERNAL_CLOCK_VALUE="12288000" -DHSI_VALUE="64000000" -DLSI_VALUE="32000" -DVDD_VALUE="3300" -DCORE_CM7-o template_hal\stm32h7xx_ll_pwr.o --omf_browse template_hal\stm32h7xx_ll_pwr.crf --depend template_hal\stm32h7xx_ll_pwr.d)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_pwr.h)(0x64955B4C)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h7xx.h)(0x64955B49)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h750xx.h)(0x64955B49)
+I (../Drivers/CMSIS/Include/core_cm7.h)(0x64955B4C)
+I (D:\Software\keil5\ARM\ARM_Compiler_5.06u7\include\stdint.h)(0x5E8E3CC2)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x64955B4C)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x64955B4C)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x64955B4C)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x64955B4C)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/system_stm32h7xx.h)(0x64955B49)
+F (..\FreeRTOS\Src\event_groups.c)(0x64020E50)(--c99 --gnu -c --cpu Cortex-M7.fp.dp -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc -I ../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I ../Drivers/CMSIS/Include -I ../FreeRTOS/Inc -I ../FreeRTOS/Portable -I ../FreeRTOS/Src -I ../FreeRTOS/include -I ../FreeRTOS/CLI-I.\RTE\_template_LL-ID:\Software\keil5\Pack\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\Software\keil5\Pack\Keil\STM32H7xx_DFP\3.1.0\Drivers\CMSIS\Device\ST\STM32H7xx\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32H750xx -D_RTE_ -DSTM32H750xx -DUSE_FULL_LL_DRIVER -DUSE_FULL_ASSERT="1U" -DHSE_VALUE="25000000" -DHSE_STARTUP_TIMEOUT="100" -DLSE_STARTUP_TIMEOUT="5000" -DLSE_VALUE="32768" -DEXTERNAL_CLOCK_VALUE="12288000" -DHSI_VALUE="64000000" -DLSI_VALUE="32000" -DVDD_VALUE="3300" -DCORE_CM7-o template_hal\event_groups.o --omf_browse template_hal\event_groups.crf --depend template_hal\event_groups.d)
+I (D:\Software\keil5\ARM\ARM_Compiler_5.06u7\include\stdlib.h)(0x5E8E3CC2)
+I (../FreeRTOS/Inc/FreeRTOS.h)(0x64020E50)
+I (D:\Software\keil5\ARM\ARM_Compiler_5.06u7\include\stddef.h)(0x5E8E3CC2)
+I (D:\Software\keil5\ARM\ARM_Compiler_5.06u7\include\stdint.h)(0x5E8E3CC2)
+I (../FreeRTOS/Inc/FreeRTOSConfig.h)(0x64F92E4E)
+I (../FreeRTOS/Inc/projdefs.h)(0x64020E50)
+I (../FreeRTOS/Inc/portable.h)(0x64020E50)
+I (../FreeRTOS/Inc/deprecated_definitions.h)(0x64020E50)
+I (../FreeRTOS/Inc/portmacro.h)(0x64020E50)
+I (../FreeRTOS/Inc/mpu_wrappers.h)(0x64020E50)
+I (../FreeRTOS/Inc/task.h)(0x64020E50)
+I (../FreeRTOS/Inc/list.h)(0x64020E50)
+I (../FreeRTOS/Inc/timers.h)(0x64020E50)
+I (../FreeRTOS/Inc/event_groups.h)(0x64020E50)
+F (..\FreeRTOS\Src\heap_4.c)(0x64020E50)(--c99 --gnu -c --cpu Cortex-M7.fp.dp -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc -I ../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I ../Drivers/CMSIS/Include -I ../FreeRTOS/Inc -I ../FreeRTOS/Portable -I ../FreeRTOS/Src -I ../FreeRTOS/include -I ../FreeRTOS/CLI-I.\RTE\_template_LL-ID:\Software\keil5\Pack\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\Software\keil5\Pack\Keil\STM32H7xx_DFP\3.1.0\Drivers\CMSIS\Device\ST\STM32H7xx\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32H750xx -D_RTE_ -DSTM32H750xx -DUSE_FULL_LL_DRIVER -DUSE_FULL_ASSERT="1U" -DHSE_VALUE="25000000" -DHSE_STARTUP_TIMEOUT="100" -DLSE_STARTUP_TIMEOUT="5000" -DLSE_VALUE="32768" -DEXTERNAL_CLOCK_VALUE="12288000" -DHSI_VALUE="64000000" -DLSI_VALUE="32000" -DVDD_VALUE="3300" -DCORE_CM7-o template_hal\heap_4.o --omf_browse template_hal\heap_4.crf --depend template_hal\heap_4.d)
+I (D:\Software\keil5\ARM\ARM_Compiler_5.06u7\include\stdlib.h)(0x5E8E3CC2)
+I (D:\Software\keil5\ARM\ARM_Compiler_5.06u7\include\string.h)(0x5E8E3CC2)
+I (../FreeRTOS/Inc/FreeRTOS.h)(0x64020E50)
+I (D:\Software\keil5\ARM\ARM_Compiler_5.06u7\include\stddef.h)(0x5E8E3CC2)
+I (D:\Software\keil5\ARM\ARM_Compiler_5.06u7\include\stdint.h)(0x5E8E3CC2)
+I (../FreeRTOS/Inc/FreeRTOSConfig.h)(0x64F92E4E)
+I (../FreeRTOS/Inc/projdefs.h)(0x64020E50)
+I (../FreeRTOS/Inc/portable.h)(0x64020E50)
+I (../FreeRTOS/Inc/deprecated_definitions.h)(0x64020E50)
+I (../FreeRTOS/Inc/portmacro.h)(0x64020E50)
+I (../FreeRTOS/Inc/mpu_wrappers.h)(0x64020E50)
+I (../FreeRTOS/Inc/task.h)(0x64020E50)
+I (../FreeRTOS/Inc/list.h)(0x64020E50)
+F (..\FreeRTOS\Src\list.c)(0x64020E50)(--c99 --gnu -c --cpu Cortex-M7.fp.dp -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc -I ../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I ../Drivers/CMSIS/Include -I ../FreeRTOS/Inc -I ../FreeRTOS/Portable -I ../FreeRTOS/Src -I ../FreeRTOS/include -I ../FreeRTOS/CLI-I.\RTE\_template_LL-ID:\Software\keil5\Pack\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\Software\keil5\Pack\Keil\STM32H7xx_DFP\3.1.0\Drivers\CMSIS\Device\ST\STM32H7xx\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32H750xx -D_RTE_ -DSTM32H750xx -DUSE_FULL_LL_DRIVER -DUSE_FULL_ASSERT="1U" -DHSE_VALUE="25000000" -DHSE_STARTUP_TIMEOUT="100" -DLSE_STARTUP_TIMEOUT="5000" -DLSE_VALUE="32768" -DEXTERNAL_CLOCK_VALUE="12288000" -DHSI_VALUE="64000000" -DLSI_VALUE="32000" -DVDD_VALUE="3300" -DCORE_CM7-o template_hal\list.o --omf_browse template_hal\list.crf --depend template_hal\list.d)
+I (D:\Software\keil5\ARM\ARM_Compiler_5.06u7\include\stdlib.h)(0x5E8E3CC2)
+I (../FreeRTOS/Inc/FreeRTOS.h)(0x64020E50)
+I (D:\Software\keil5\ARM\ARM_Compiler_5.06u7\include\stddef.h)(0x5E8E3CC2)
+I (D:\Software\keil5\ARM\ARM_Compiler_5.06u7\include\stdint.h)(0x5E8E3CC2)
+I (../FreeRTOS/Inc/FreeRTOSConfig.h)(0x64F92E4E)
+I (../FreeRTOS/Inc/projdefs.h)(0x64020E50)
+I (../FreeRTOS/Inc/portable.h)(0x64020E50)
+I (../FreeRTOS/Inc/deprecated_definitions.h)(0x64020E50)
+I (../FreeRTOS/Inc/portmacro.h)(0x64020E50)
+I (../FreeRTOS/Inc/mpu_wrappers.h)(0x64020E50)
+I (../FreeRTOS/Inc/list.h)(0x64020E50)
+F (..\FreeRTOS\Src\queue.c)(0x64020E50)(--c99 --gnu -c --cpu Cortex-M7.fp.dp -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc -I ../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I ../Drivers/CMSIS/Include -I ../FreeRTOS/Inc -I ../FreeRTOS/Portable -I ../FreeRTOS/Src -I ../FreeRTOS/include -I ../FreeRTOS/CLI-I.\RTE\_template_LL-ID:\Software\keil5\Pack\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\Software\keil5\Pack\Keil\STM32H7xx_DFP\3.1.0\Drivers\CMSIS\Device\ST\STM32H7xx\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32H750xx -D_RTE_ -DSTM32H750xx -DUSE_FULL_LL_DRIVER -DUSE_FULL_ASSERT="1U" -DHSE_VALUE="25000000" -DHSE_STARTUP_TIMEOUT="100" -DLSE_STARTUP_TIMEOUT="5000" -DLSE_VALUE="32768" -DEXTERNAL_CLOCK_VALUE="12288000" -DHSI_VALUE="64000000" -DLSI_VALUE="32000" -DVDD_VALUE="3300" -DCORE_CM7-o template_hal\queue.o --omf_browse template_hal\queue.crf --depend template_hal\queue.d)
+I (D:\Software\keil5\ARM\ARM_Compiler_5.06u7\include\stdlib.h)(0x5E8E3CC2)
+I (D:\Software\keil5\ARM\ARM_Compiler_5.06u7\include\string.h)(0x5E8E3CC2)
+I (../FreeRTOS/Inc/FreeRTOS.h)(0x64020E50)
+I (D:\Software\keil5\ARM\ARM_Compiler_5.06u7\include\stddef.h)(0x5E8E3CC2)
+I (D:\Software\keil5\ARM\ARM_Compiler_5.06u7\include\stdint.h)(0x5E8E3CC2)
+I (../FreeRTOS/Inc/FreeRTOSConfig.h)(0x64F92E4E)
+I (../FreeRTOS/Inc/projdefs.h)(0x64020E50)
+I (../FreeRTOS/Inc/portable.h)(0x64020E50)
+I (../FreeRTOS/Inc/deprecated_definitions.h)(0x64020E50)
+I (../FreeRTOS/Inc/portmacro.h)(0x64020E50)
+I (../FreeRTOS/Inc/mpu_wrappers.h)(0x64020E50)
+I (../FreeRTOS/Inc/task.h)(0x64020E50)
+I (../FreeRTOS/Inc/list.h)(0x64020E50)
+I (../FreeRTOS/Inc/queue.h)(0x64020E50)
+F (..\FreeRTOS\Src\tasks.c)(0x64020E50)(--c99 --gnu -c --cpu Cortex-M7.fp.dp -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc -I ../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I ../Drivers/CMSIS/Include -I ../FreeRTOS/Inc -I ../FreeRTOS/Portable -I ../FreeRTOS/Src -I ../FreeRTOS/include -I ../FreeRTOS/CLI-I.\RTE\_template_LL-ID:\Software\keil5\Pack\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\Software\keil5\Pack\Keil\STM32H7xx_DFP\3.1.0\Drivers\CMSIS\Device\ST\STM32H7xx\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32H750xx -D_RTE_ -DSTM32H750xx -DUSE_FULL_LL_DRIVER -DUSE_FULL_ASSERT="1U" -DHSE_VALUE="25000000" -DHSE_STARTUP_TIMEOUT="100" -DLSE_STARTUP_TIMEOUT="5000" -DLSE_VALUE="32768" -DEXTERNAL_CLOCK_VALUE="12288000" -DHSI_VALUE="64000000" -DLSI_VALUE="32000" -DVDD_VALUE="3300" -DCORE_CM7-o template_hal\tasks.o --omf_browse template_hal\tasks.crf --depend template_hal\tasks.d)
+I (D:\Software\keil5\ARM\ARM_Compiler_5.06u7\include\stdlib.h)(0x5E8E3CC2)
+I (D:\Software\keil5\ARM\ARM_Compiler_5.06u7\include\string.h)(0x5E8E3CC2)
+I (../FreeRTOS/Inc/FreeRTOS.h)(0x64020E50)
+I (D:\Software\keil5\ARM\ARM_Compiler_5.06u7\include\stddef.h)(0x5E8E3CC2)
+I (D:\Software\keil5\ARM\ARM_Compiler_5.06u7\include\stdint.h)(0x5E8E3CC2)
+I (../FreeRTOS/Inc/FreeRTOSConfig.h)(0x64F92E4E)
+I (../FreeRTOS/Inc/projdefs.h)(0x64020E50)
+I (../FreeRTOS/Inc/portable.h)(0x64020E50)
+I (../FreeRTOS/Inc/deprecated_definitions.h)(0x64020E50)
+I (../FreeRTOS/Inc/portmacro.h)(0x64020E50)
+I (../FreeRTOS/Inc/mpu_wrappers.h)(0x64020E50)
+I (../FreeRTOS/Inc/task.h)(0x64020E50)
+I (../FreeRTOS/Inc/list.h)(0x64020E50)
+I (../FreeRTOS/Inc/timers.h)(0x64020E50)
+I (../FreeRTOS/Inc/stack_macros.h)(0x64020E50)
+I (D:\Software\keil5\ARM\ARM_Compiler_5.06u7\include\stdio.h)(0x5E8E3CC2)
+F (..\FreeRTOS\Src\timers.c)(0x64020E50)(--c99 --gnu -c --cpu Cortex-M7.fp.dp -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc -I ../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I ../Drivers/CMSIS/Include -I ../FreeRTOS/Inc -I ../FreeRTOS/Portable -I ../FreeRTOS/Src -I ../FreeRTOS/include -I ../FreeRTOS/CLI-I.\RTE\_template_LL-ID:\Software\keil5\Pack\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\Software\keil5\Pack\Keil\STM32H7xx_DFP\3.1.0\Drivers\CMSIS\Device\ST\STM32H7xx\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32H750xx -D_RTE_ -DSTM32H750xx -DUSE_FULL_LL_DRIVER -DUSE_FULL_ASSERT="1U" -DHSE_VALUE="25000000" -DHSE_STARTUP_TIMEOUT="100" -DLSE_STARTUP_TIMEOUT="5000" -DLSE_VALUE="32768" -DEXTERNAL_CLOCK_VALUE="12288000" -DHSI_VALUE="64000000" -DLSI_VALUE="32000" -DVDD_VALUE="3300" -DCORE_CM7-o template_hal\timers.o --omf_browse template_hal\timers.crf --depend template_hal\timers.d)
+I (D:\Software\keil5\ARM\ARM_Compiler_5.06u7\include\stdlib.h)(0x5E8E3CC2)
+I (../FreeRTOS/Inc/FreeRTOS.h)(0x64020E50)
+I (D:\Software\keil5\ARM\ARM_Compiler_5.06u7\include\stddef.h)(0x5E8E3CC2)
+I (D:\Software\keil5\ARM\ARM_Compiler_5.06u7\include\stdint.h)(0x5E8E3CC2)
+I (../FreeRTOS/Inc/FreeRTOSConfig.h)(0x64F92E4E)
+I (../FreeRTOS/Inc/projdefs.h)(0x64020E50)
+I (../FreeRTOS/Inc/portable.h)(0x64020E50)
+I (../FreeRTOS/Inc/deprecated_definitions.h)(0x64020E50)
+I (../FreeRTOS/Inc/portmacro.h)(0x64020E50)
+I (../FreeRTOS/Inc/mpu_wrappers.h)(0x64020E50)
+I (../FreeRTOS/Inc/task.h)(0x64020E50)
+I (../FreeRTOS/Inc/list.h)(0x64020E50)
+I (../FreeRTOS/Inc/queue.h)(0x64020E50)
+I (../FreeRTOS/Inc/timers.h)(0x64020E50)
+F (..\FreeRTOS\Src\croutine.c)(0x64020E50)(--c99 --gnu -c --cpu Cortex-M7.fp.dp -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc -I ../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I ../Drivers/CMSIS/Include -I ../FreeRTOS/Inc -I ../FreeRTOS/Portable -I ../FreeRTOS/Src -I ../FreeRTOS/include -I ../FreeRTOS/CLI-I.\RTE\_template_LL-ID:\Software\keil5\Pack\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\Software\keil5\Pack\Keil\STM32H7xx_DFP\3.1.0\Drivers\CMSIS\Device\ST\STM32H7xx\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32H750xx -D_RTE_ -DSTM32H750xx -DUSE_FULL_LL_DRIVER -DUSE_FULL_ASSERT="1U" -DHSE_VALUE="25000000" -DHSE_STARTUP_TIMEOUT="100" -DLSE_STARTUP_TIMEOUT="5000" -DLSE_VALUE="32768" -DEXTERNAL_CLOCK_VALUE="12288000" -DHSI_VALUE="64000000" -DLSI_VALUE="32000" -DVDD_VALUE="3300" -DCORE_CM7-o template_hal\croutine.o --omf_browse template_hal\croutine.crf --depend template_hal\croutine.d)
+I (../FreeRTOS/Inc/FreeRTOS.h)(0x64020E50)
+I (D:\Software\keil5\ARM\ARM_Compiler_5.06u7\include\stddef.h)(0x5E8E3CC2)
+I (D:\Software\keil5\ARM\ARM_Compiler_5.06u7\include\stdint.h)(0x5E8E3CC2)
+I (../FreeRTOS/Inc/FreeRTOSConfig.h)(0x64F92E4E)
+I (../FreeRTOS/Inc/projdefs.h)(0x64020E50)
+I (../FreeRTOS/Inc/portable.h)(0x64020E50)
+I (../FreeRTOS/Inc/deprecated_definitions.h)(0x64020E50)
+I (../FreeRTOS/Inc/portmacro.h)(0x64020E50)
+I (../FreeRTOS/Inc/mpu_wrappers.h)(0x64020E50)
+I (../FreeRTOS/Inc/task.h)(0x64020E50)
+I (../FreeRTOS/Inc/list.h)(0x64020E50)
+I (../FreeRTOS/Inc/croutine.h)(0x64020E50)
+F (..\FreeRTOS\Portable\port.c)(0x64020E50)(--c99 --gnu -c --cpu Cortex-M7.fp.dp -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc -I ../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I ../Drivers/CMSIS/Include -I ../FreeRTOS/Inc -I ../FreeRTOS/Portable -I ../FreeRTOS/Src -I ../FreeRTOS/include -I ../FreeRTOS/CLI-I.\RTE\_template_LL-ID:\Software\keil5\Pack\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\Software\keil5\Pack\Keil\STM32H7xx_DFP\3.1.0\Drivers\CMSIS\Device\ST\STM32H7xx\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32H750xx -D_RTE_ -DSTM32H750xx -DUSE_FULL_LL_DRIVER -DUSE_FULL_ASSERT="1U" -DHSE_VALUE="25000000" -DHSE_STARTUP_TIMEOUT="100" -DLSE_STARTUP_TIMEOUT="5000" -DLSE_VALUE="32768" -DEXTERNAL_CLOCK_VALUE="12288000" -DHSI_VALUE="64000000" -DLSI_VALUE="32000" -DVDD_VALUE="3300" -DCORE_CM7-o template_hal\port.o --omf_browse template_hal\port.crf --depend template_hal\port.d)
+I (../FreeRTOS/Inc/FreeRTOS.h)(0x64020E50)
+I (D:\Software\keil5\ARM\ARM_Compiler_5.06u7\include\stddef.h)(0x5E8E3CC2)
+I (D:\Software\keil5\ARM\ARM_Compiler_5.06u7\include\stdint.h)(0x5E8E3CC2)
+I (../FreeRTOS/Inc/FreeRTOSConfig.h)(0x64F92E4E)
+I (../FreeRTOS/Inc/projdefs.h)(0x64020E50)
+I (../FreeRTOS/Inc/portable.h)(0x64020E50)
+I (../FreeRTOS/Inc/deprecated_definitions.h)(0x64020E50)
+I (../FreeRTOS/Inc/portmacro.h)(0x64020E50)
+I (../FreeRTOS/Inc/mpu_wrappers.h)(0x64020E50)
+I (../FreeRTOS/Inc/task.h)(0x64020E50)
+I (../FreeRTOS/Inc/list.h)(0x64020E50)
+F (..\FreeRTOS\CLI\ansi.c)(0x5EFBF5BC)(--c99 --gnu -c --cpu Cortex-M7.fp.dp -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc -I ../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I ../Drivers/CMSIS/Include -I ../FreeRTOS/Inc -I ../FreeRTOS/Portable -I ../FreeRTOS/Src -I ../FreeRTOS/include -I ../FreeRTOS/CLI-I.\RTE\_template_LL-ID:\Software\keil5\Pack\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\Software\keil5\Pack\Keil\STM32H7xx_DFP\3.1.0\Drivers\CMSIS\Device\ST\STM32H7xx\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32H750xx -D_RTE_ -DSTM32H750xx -DUSE_FULL_LL_DRIVER -DUSE_FULL_ASSERT="1U" -DHSE_VALUE="25000000" -DHSE_STARTUP_TIMEOUT="100" -DLSE_STARTUP_TIMEOUT="5000" -DLSE_VALUE="32768" -DEXTERNAL_CLOCK_VALUE="12288000" -DHSI_VALUE="64000000" -DLSI_VALUE="32000" -DVDD_VALUE="3300" -DCORE_CM7-o template_hal\ansi.o --omf_browse template_hal\ansi.crf --depend template_hal\ansi.d)
+I (..\FreeRTOS\CLI\ansi.h)(0x5EFBF5BC)
+I (..\FreeRTOS\CLI\ansi_port.h)(0x5EFBF5BC)
+I (..\FreeRTOS\CLI\ansi_def.h)(0x5EFBF5BC)
+I (..\FreeRTOS\CLI\nr_micro_shell_config.h)(0x64FCA564)
+I (D:\Software\keil5\ARM\ARM_Compiler_5.06u7\include\stdio.h)(0x5E8E3CC2)
+F (..\FreeRTOS\CLI\ansi_port.c)(0x5EFBF5BC)(--c99 --gnu -c --cpu Cortex-M7.fp.dp -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc -I ../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I ../Drivers/CMSIS/Include -I ../FreeRTOS/Inc -I ../FreeRTOS/Portable -I ../FreeRTOS/Src -I ../FreeRTOS/include -I ../FreeRTOS/CLI-I.\RTE\_template_LL-ID:\Software\keil5\Pack\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\Software\keil5\Pack\Keil\STM32H7xx_DFP\3.1.0\Drivers\CMSIS\Device\ST\STM32H7xx\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32H750xx -D_RTE_ -DSTM32H750xx -DUSE_FULL_LL_DRIVER -DUSE_FULL_ASSERT="1U" -DHSE_VALUE="25000000" -DHSE_STARTUP_TIMEOUT="100" -DLSE_STARTUP_TIMEOUT="5000" -DLSE_VALUE="32768" -DEXTERNAL_CLOCK_VALUE="12288000" -DHSI_VALUE="64000000" -DLSI_VALUE="32000" -DVDD_VALUE="3300" -DCORE_CM7-o template_hal\ansi_port.o --omf_browse template_hal\ansi_port.crf --depend template_hal\ansi_port.d)
+I (..\FreeRTOS\CLI\ansi_port.h)(0x5EFBF5BC)
+I (..\FreeRTOS\CLI\ansi_def.h)(0x5EFBF5BC)
+I (..\FreeRTOS\CLI\nr_micro_shell_config.h)(0x64FCA564)
+I (..\FreeRTOS\CLI\ansi.h)(0x5EFBF5BC)
+I (D:\Software\keil5\ARM\ARM_Compiler_5.06u7\include\stdio.h)(0x5E8E3CC2)
+I (..\FreeRTOS\CLI\nr_micro_shell.h)(0x64FCA098)
+I (D:\Software\keil5\ARM\ARM_Compiler_5.06u7\include\string.h)(0x5E8E3CC2)
+F (..\FreeRTOS\CLI\nr_micro_shell.c)(0x64FCA10D)(--c99 --gnu -c --cpu Cortex-M7.fp.dp -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc -I ../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I ../Drivers/CMSIS/Include -I ../FreeRTOS/Inc -I ../FreeRTOS/Portable -I ../FreeRTOS/Src -I ../FreeRTOS/include -I ../FreeRTOS/CLI-I.\RTE\_template_LL-ID:\Software\keil5\Pack\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\Software\keil5\Pack\Keil\STM32H7xx_DFP\3.1.0\Drivers\CMSIS\Device\ST\STM32H7xx\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32H750xx -D_RTE_ -DSTM32H750xx -DUSE_FULL_LL_DRIVER -DUSE_FULL_ASSERT="1U" -DHSE_VALUE="25000000" -DHSE_STARTUP_TIMEOUT="100" -DLSE_STARTUP_TIMEOUT="5000" -DLSE_VALUE="32768" -DEXTERNAL_CLOCK_VALUE="12288000" -DHSI_VALUE="64000000" -DLSI_VALUE="32000" -DVDD_VALUE="3300" -DCORE_CM7-o template_hal\nr_micro_shell.o --omf_browse template_hal\nr_micro_shell.crf --depend template_hal\nr_micro_shell.d)
+I (..\FreeRTOS\CLI\nr_micro_shell.h)(0x64FCA098)
+I (D:\Software\keil5\ARM\ARM_Compiler_5.06u7\include\stdio.h)(0x5E8E3CC2)
+I (..\FreeRTOS\CLI\nr_micro_shell_config.h)(0x64FCA564)
+I (..\FreeRTOS\CLI\ansi.h)(0x5EFBF5BC)
+I (..\FreeRTOS\CLI\ansi_port.h)(0x5EFBF5BC)
+I (..\FreeRTOS\CLI\ansi_def.h)(0x5EFBF5BC)
+I (D:\Software\keil5\ARM\ARM_Compiler_5.06u7\include\string.h)(0x5E8E3CC2)
+I (D:\Software\keil5\ARM\ARM_Compiler_5.06u7\include\ctype.h)(0x5E8E3CC2)
+F (..\FreeRTOS\CLI\my_shell_func.c)(0x6509C5D4)(--c99 --gnu -c --cpu Cortex-M7.fp.dp -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc -I ../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I ../Drivers/CMSIS/Include -I ../FreeRTOS/Inc -I ../FreeRTOS/Portable -I ../FreeRTOS/Src -I ../FreeRTOS/include -I ../FreeRTOS/CLI-I.\RTE\_template_LL-ID:\Software\keil5\Pack\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\Software\keil5\Pack\Keil\STM32H7xx_DFP\3.1.0\Drivers\CMSIS\Device\ST\STM32H7xx\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32H750xx -D_RTE_ -DSTM32H750xx -DUSE_FULL_LL_DRIVER -DUSE_FULL_ASSERT="1U" -DHSE_VALUE="25000000" -DHSE_STARTUP_TIMEOUT="100" -DLSE_STARTUP_TIMEOUT="5000" -DLSE_VALUE="32768" -DEXTERNAL_CLOCK_VALUE="12288000" -DHSI_VALUE="64000000" -DLSI_VALUE="32000" -DVDD_VALUE="3300" -DCORE_CM7-o template_hal\my_shell_func.o --omf_browse template_hal\my_shell_func.crf --depend template_hal\my_shell_func.d)
+I (..\FreeRTOS\CLI\my_shell_func.h)(0x6509BB30)
+I (..\FreeRTOS\CLI\nr_micro_shell.h)(0x64FCA098)
+I (D:\Software\keil5\ARM\ARM_Compiler_5.06u7\include\stdio.h)(0x5E8E3CC2)
+I (..\FreeRTOS\CLI\nr_micro_shell_config.h)(0x64FCA564)
+I (..\FreeRTOS\CLI\ansi.h)(0x5EFBF5BC)
+I (..\FreeRTOS\CLI\ansi_port.h)(0x5EFBF5BC)
+I (..\FreeRTOS\CLI\ansi_def.h)(0x5EFBF5BC)
+I (../Inc/Usart1.h)(0x65066A14)
+I (../Inc/main.h)(0x6502EEC0)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_rcc.h)(0x64955B4C)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h7xx.h)(0x64955B49)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h750xx.h)(0x64955B49)
+I (../Drivers/CMSIS/Include/core_cm7.h)(0x64955B4C)
+I (D:\Software\keil5\ARM\ARM_Compiler_5.06u7\include\stdint.h)(0x5E8E3CC2)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x64955B4C)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x64955B4C)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x64955B4C)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x64955B4C)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/system_stm32h7xx.h)(0x64955B49)
+I (D:\Software\keil5\ARM\ARM_Compiler_5.06u7\include\math.h)(0x5E8E3CC2)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_crs.h)(0x64955B4C)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_bus.h)(0x64955B4C)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_system.h)(0x64955B4C)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_exti.h)(0x64955B4C)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_cortex.h)(0x64955B4C)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_utils.h)(0x64955B4C)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_pwr.h)(0x64955B4C)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_dma.h)(0x64955B4C)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_dmamux.h)(0x64955B4C)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_spi.h)(0x64955B4C)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_usart.h)(0x64955B4C)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_gpio.h)(0x64955B4C)
+I (../Inc/stm32_assert.h)(0x64B52231)
+I (../Inc/usart.h)(0x64B52230)
+I (D:\Software\keil5\ARM\ARM_Compiler_5.06u7\include\String.h)(0x5E8E3CC2)
+I (../FreeRTOS/Inc/FreeRTOS.h)(0x64020E50)
+I (D:\Software\keil5\ARM\ARM_Compiler_5.06u7\include\stddef.h)(0x5E8E3CC2)
+I (../FreeRTOS/Inc/FreeRTOSConfig.h)(0x64F92E4E)
+I (../FreeRTOS/Inc/projdefs.h)(0x64020E50)
+I (../FreeRTOS/Inc/portable.h)(0x64020E50)
+I (../FreeRTOS/Inc/deprecated_definitions.h)(0x64020E50)
+I (../FreeRTOS/Inc/portmacro.h)(0x64020E50)
+I (../FreeRTOS/Inc/mpu_wrappers.h)(0x64020E50)
+I (../FreeRTOS/Inc/semphr.h)(0x64020E50)
+I (../FreeRTOS/Inc/queue.h)(0x64020E50)
+I (../FreeRTOS/Inc/task.h)(0x64020E50)
+I (../FreeRTOS/Inc/list.h)(0x64020E50)
+I (D:\Software\keil5\ARM\ARM_Compiler_5.06u7\include\stdlib.h)(0x5E8E3CC2)
+I (../Inc/Led.h)(0x64F9D896)
+F (..\FreeRTOS\CLI\nr_micro_shell_commands.c)(0x6509BAAE)(--c99 --gnu -c --cpu Cortex-M7.fp.dp -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc -I ../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I ../Drivers/CMSIS/Include -I ../FreeRTOS/Inc -I ../FreeRTOS/Portable -I ../FreeRTOS/Src -I ../FreeRTOS/include -I ../FreeRTOS/CLI-I.\RTE\_template_LL-ID:\Software\keil5\Pack\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\Software\keil5\Pack\Keil\STM32H7xx_DFP\3.1.0\Drivers\CMSIS\Device\ST\STM32H7xx\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32H750xx -D_RTE_ -DSTM32H750xx -DUSE_FULL_LL_DRIVER -DUSE_FULL_ASSERT="1U" -DHSE_VALUE="25000000" -DHSE_STARTUP_TIMEOUT="100" -DLSE_STARTUP_TIMEOUT="5000" -DLSE_VALUE="32768" -DEXTERNAL_CLOCK_VALUE="12288000" -DHSI_VALUE="64000000" -DLSI_VALUE="32000" -DVDD_VALUE="3300" -DCORE_CM7-o template_hal\nr_micro_shell_commands.o --omf_browse template_hal\nr_micro_shell_commands.crf --depend template_hal\nr_micro_shell_commands.d)
+I (..\FreeRTOS\CLI\nr_micro_shell.h)(0x64FCA098)
+I (D:\Software\keil5\ARM\ARM_Compiler_5.06u7\include\stdio.h)(0x5E8E3CC2)
+I (..\FreeRTOS\CLI\nr_micro_shell_config.h)(0x64FCA564)
+I (..\FreeRTOS\CLI\ansi.h)(0x5EFBF5BC)
+I (..\FreeRTOS\CLI\ansi_port.h)(0x5EFBF5BC)
+I (..\FreeRTOS\CLI\ansi_def.h)(0x5EFBF5BC)
+I (..\FreeRTOS\CLI\my_shell_func.h)(0x6509BB30)
+I (../Inc/Usart1.h)(0x65066A14)
+I (../Inc/main.h)(0x6502EEC0)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_rcc.h)(0x64955B4C)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h7xx.h)(0x64955B49)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h750xx.h)(0x64955B49)
+I (../Drivers/CMSIS/Include/core_cm7.h)(0x64955B4C)
+I (D:\Software\keil5\ARM\ARM_Compiler_5.06u7\include\stdint.h)(0x5E8E3CC2)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x64955B4C)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x64955B4C)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x64955B4C)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x64955B4C)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/system_stm32h7xx.h)(0x64955B49)
+I (D:\Software\keil5\ARM\ARM_Compiler_5.06u7\include\math.h)(0x5E8E3CC2)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_crs.h)(0x64955B4C)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_bus.h)(0x64955B4C)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_system.h)(0x64955B4C)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_exti.h)(0x64955B4C)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_cortex.h)(0x64955B4C)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_utils.h)(0x64955B4C)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_pwr.h)(0x64955B4C)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_dma.h)(0x64955B4C)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_dmamux.h)(0x64955B4C)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_spi.h)(0x64955B4C)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_usart.h)(0x64955B4C)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_gpio.h)(0x64955B4C)
+I (../Inc/stm32_assert.h)(0x64B52231)
+I (../Inc/usart.h)(0x64B52230)
+I (D:\Software\keil5\ARM\ARM_Compiler_5.06u7\include\String.h)(0x5E8E3CC2)
+I (../FreeRTOS/Inc/FreeRTOS.h)(0x64020E50)
+I (D:\Software\keil5\ARM\ARM_Compiler_5.06u7\include\stddef.h)(0x5E8E3CC2)
+I (../FreeRTOS/Inc/FreeRTOSConfig.h)(0x64F92E4E)
+I (../FreeRTOS/Inc/projdefs.h)(0x64020E50)
+I (../FreeRTOS/Inc/portable.h)(0x64020E50)
+I (../FreeRTOS/Inc/deprecated_definitions.h)(0x64020E50)
+I (../FreeRTOS/Inc/portmacro.h)(0x64020E50)
+I (../FreeRTOS/Inc/mpu_wrappers.h)(0x64020E50)
+I (../FreeRTOS/Inc/semphr.h)(0x64020E50)
+I (../FreeRTOS/Inc/queue.h)(0x64020E50)
+I (../FreeRTOS/Inc/task.h)(0x64020E50)
+I (../FreeRTOS/Inc/list.h)(0x64020E50)
+I (D:\Software\keil5\ARM\ARM_Compiler_5.06u7\include\ctype.h)(0x5E8E3CC2)

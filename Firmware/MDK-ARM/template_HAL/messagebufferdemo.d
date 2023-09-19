@@ -1,0 +1,17 @@
+template_hal\messagebufferdemo.o: ..\FreeRTOS\Minimal\MessageBufferDemo.c
+template_hal\messagebufferdemo.o: D:\Software\keil5\ARM\ARM_Compiler_5.06u7\Bin\..\include\stdio.h
+template_hal\messagebufferdemo.o: D:\Software\keil5\ARM\ARM_Compiler_5.06u7\Bin\..\include\string.h
+template_hal\messagebufferdemo.o: ..\FreeRTOS\Inc\FreeRTOS.h
+template_hal\messagebufferdemo.o: D:\Software\keil5\ARM\ARM_Compiler_5.06u7\Bin\..\include\stddef.h
+template_hal\messagebufferdemo.o: D:\Software\keil5\ARM\ARM_Compiler_5.06u7\Bin\..\include\stdint.h
+template_hal\messagebufferdemo.o: ..\FreeRTOS\Inc\FreeRTOSConfig.h
+template_hal\messagebufferdemo.o: ..\FreeRTOS\Inc\projdefs.h
+template_hal\messagebufferdemo.o: ..\FreeRTOS\Inc\portable.h
+template_hal\messagebufferdemo.o: ..\FreeRTOS\Inc\deprecated_definitions.h
+template_hal\messagebufferdemo.o: ..\FreeRTOS\Inc\portmacro.h
+template_hal\messagebufferdemo.o: ..\FreeRTOS\Inc\mpu_wrappers.h
+template_hal\messagebufferdemo.o: ..\FreeRTOS\Inc\task.h
+template_hal\messagebufferdemo.o: ..\FreeRTOS\Inc\list.h
+template_hal\messagebufferdemo.o: ..\FreeRTOS\Inc\message_buffer.h
+template_hal\messagebufferdemo.o: ..\FreeRTOS\Inc\stream_buffer.h
+template_hal\messagebufferdemo.o: ..\FreeRTOS\include\MessageBufferDemo.h

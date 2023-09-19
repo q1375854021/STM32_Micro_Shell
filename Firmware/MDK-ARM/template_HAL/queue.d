@@ -1,0 +1,15 @@
+template_hal\queue.o: ..\FreeRTOS\Src\queue.c
+template_hal\queue.o: D:\Software\keil5\ARM\ARM_Compiler_5.06u7\Bin\..\include\stdlib.h
+template_hal\queue.o: D:\Software\keil5\ARM\ARM_Compiler_5.06u7\Bin\..\include\string.h
+template_hal\queue.o: ../FreeRTOS/Inc/FreeRTOS.h
+template_hal\queue.o: D:\Software\keil5\ARM\ARM_Compiler_5.06u7\Bin\..\include\stddef.h
+template_hal\queue.o: D:\Software\keil5\ARM\ARM_Compiler_5.06u7\Bin\..\include\stdint.h
+template_hal\queue.o: ../FreeRTOS/Inc/FreeRTOSConfig.h
+template_hal\queue.o: ../FreeRTOS/Inc/projdefs.h
+template_hal\queue.o: ../FreeRTOS/Inc/portable.h
+template_hal\queue.o: ../FreeRTOS/Inc/deprecated_definitions.h
+template_hal\queue.o: ../FreeRTOS/Inc/portmacro.h
+template_hal\queue.o: ../FreeRTOS/Inc/mpu_wrappers.h
+template_hal\queue.o: ../FreeRTOS/Inc/task.h
+template_hal\queue.o: ../FreeRTOS/Inc/list.h
+template_hal\queue.o: ../FreeRTOS/Inc/queue.h
